@@ -1,0 +1,94 @@
+body {
+  background-color: #f8f1f1;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.text-center {
+  background-color: #f6f6f6;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 5px 200px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #161d6f;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.img-center {
+  border-radius: 50%;
+  width: 175px;
+  margin: 20px;
+}
+
+.img-avatar {
+  background-color: #98ded9;
+  margin: 10px 200px;
+  text-align: center;
+  box-shadow: 0 8px 3px rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+
+.main-header {
+  background-color: #161d6f;
+  color: white;
+  font-weight: bold;
+  margin: 20px 200px;
+  font-size: 35px;
+  padding: 30px 15px;
+  box-shadow: 0 8px 3px rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+
+.title-center {
+  margin-top: 0;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-family: Courier, monospace;
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-top: 10px;
+  font-size: 20px
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 540px, this CSS will be read */
+  .img-avatar {
+    width: 700px;
+  }
+  .text-center {
+    width: 700px;
+  }
+  .main.header {
+    width: 700px;
+  }
+}
+
