@@ -10,7 +10,7 @@ body {
   background-color: #f6f6f6;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  margin: 5px 200px;
+  margin: 5px 250px;
   padding: 15px;
   border-radius: 3px;
 }
@@ -32,63 +32,111 @@ h1, h2 {
 
 .img-avatar {
   background-color: #98ded9;
-  margin: 10px 200px;
+  margin: 10px 250px;
   text-align: center;
   box-shadow: 0 8px 3px rgba(0,0,0,.1);
   border-radius: 3px;
 }
 
-.main-header {
+.header-center {
   background-color: #161d6f;
-  color: white;
-  font-weight: bold;
-  margin: 20px 200px;
-  font-size: 35px;
-  padding: 30px 15px;
+  margin: 20px 250px;
   box-shadow: 0 8px 3px rgba(0,0,0,.1);
   border-radius: 3px;
 }
 
-.title-center {
-  margin-top: 0;
-  padding-top: 30px;
+.main-header {
+  color: white;
   font-weight: bold;
+  font-size: 35px;
+  padding: 30px 15px;
 }
 
 a {
   text-decoration: none;
   font-family: Courier, monospace;
   font-weight: 600;
+  color:white;
 }
 
 a:hover {
-  background-color: white;
-  color: black;
+  color: #c7ffd8;
   text-decoration: underline;
 }
 
 .list-inline {
   display: inline-block;
   padding: 0px 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 20px
 }
 
 ul {
-  padding: 0;
+  padding-left: 0px;
+}
+
+.social-media {
   text-align: center;
+  background-color: #161d6f;
+  padding: 1px;
+  margin: 15px 250px;
+  box-shadow: 0 8px 3px rgba(0,0,0,.1);
+  border-radius: 3px;
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 540px, this CSS will be read */
+  .header-center {
+    width: 700px;
+  }
   .img-avatar {
+    width: 700px;
+  }
+  .second-header-center {
     width: 700px;
   }
   .text-center {
     width: 700px;
   }
-  .main.header {
+  .social-media {
     width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .header-center {
+    width: 500px;
+  }
+  .img-avatar {
+    width: 500px;
+  }
+  .second-header-center {
+    width: 500px;
+  }
+  .text-center {
+    width: 500px;
+  }
+  .social-media {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .header-center {
+    width: 300px;
+  }
+  .img-avatar {
+    width: 300px;
+  }
+  .second-header-center {
+    width: 300px;
+  }
+  .text-center {
+    width: 300px;
+  }
+  .social-media {
+    width: 300px;
   }
 }
 
