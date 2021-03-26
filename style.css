@@ -10,9 +10,9 @@ body {
   background-color: #f6f6f6;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  margin: 5px 250px;
+  margin: 20px 250px;
   padding: 15px;
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 h1, h2 {
@@ -28,21 +28,22 @@ h1, h2 {
   border-radius: 50%;
   width: 175px;
   margin: 20px;
+  height: 175px;
 }
 
 .img-avatar {
-  background-color: #98ded9;
-  margin: 10px 250px;
+  background-color: #f6f6f6;
+  margin: 20px 250px;
   text-align: center;
   box-shadow: 0 8px 3px rgba(0,0,0,.1);
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 .header-center {
   background-color: #161d6f;
   margin: 20px 250px;
   box-shadow: 0 8px 3px rgba(0,0,0,.1);
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 .main-header {
@@ -79,9 +80,9 @@ ul {
   text-align: center;
   background-color: #161d6f;
   padding: 1px;
-  margin: 15px 250px;
+  margin: 20px 250px;
   box-shadow: 0 8px 3px rgba(0,0,0,.1);
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 
